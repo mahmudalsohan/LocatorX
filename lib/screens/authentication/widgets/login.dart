@@ -50,7 +50,7 @@ class LoginWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: MediaQuery.of(context).size.width / 1.2,
+                width: Get.width / 1.2,
                 margin: const EdgeInsets.only(top: 30),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(25),

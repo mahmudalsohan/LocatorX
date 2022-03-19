@@ -29,9 +29,7 @@ class AuthenticationScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     SizedBox(height: Get.width / 1.3),
-                    SizedBox(
-                      height: Get.width / 70,
-                    ),
+                    SizedBox(height: Get.width / 70),
                     Visibility(
                       visible: _appController.isLoginWidgetDisplayed.value,
                       child: const LoginWidget(),

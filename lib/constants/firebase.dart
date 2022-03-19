@@ -6,4 +6,4 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 final Future<FirebaseApp> initialization = Firebase.initializeApp();
 FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
 FirebaseAuth auth = FirebaseAuth.instance;
-FirebaseMessaging fcm = FirebaseMessaging.instance;
+FirebaseMessaging fbm = FirebaseMessaging.instance;
